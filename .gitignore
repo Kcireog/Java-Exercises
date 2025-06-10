@@ -1,0 +1,13 @@
+# Carpetas generadas por el IDE
+.idea/
+*.iml
+
+# Archivos compilados
+/out/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+*.log
