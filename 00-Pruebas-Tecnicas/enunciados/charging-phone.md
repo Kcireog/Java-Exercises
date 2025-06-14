@@ -38,6 +38,6 @@ lineas contendran 2 números enteros S y T.
 Cantidad de minutos que tomará/tarda la carga (Integer)
 
 ### Restricciones:
-1<=Q<=100000
+1<=Q<=100000  
 0<=S<=T<=1000000000
 
