@@ -41,3 +41,27 @@ Cantidad de minutos que tomará/tarda la carga (Integer)
 1<=Q<=100000  
 0<=S<=T<=1000000000
 
+### Entrada de muestra:
+2 (Q)  
+0 5  
+10 50
+
+### Salida de muestra:
+1  
+7
+
+## Explicación
+
+### Primera consulta:
+S=0, T=5  
+En esta condición R=10, por lo tanto, después de 1 min la carga se convierte
+en 0+10 = 10 que es mayor que 5.  
+Por lo tanto, el tiempo total de carga: 1 min
+
+### Segunda consulta:
+S=10, T=50  
+En esta condición se aplica R=10, y la carga se convierte en 10+10=20.  
+Ahora la tasa de carga cambia a R=5, entonces después de 6 min más la carga se convierte en 20+5+5+5+5+5+5=50  
+Por lotanto, el tiempo total: 7 min.
+
+Intenta hacerlo de la forma más optimizada posible.
