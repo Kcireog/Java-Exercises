@@ -1,5 +1,6 @@
 import java.io.*;
 
+// Solution for Java 8
 public class NumberOfLikesAndDislikes {
 
     public static void main(String[] args) throws IOException {
