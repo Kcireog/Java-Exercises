@@ -18,11 +18,14 @@ Imprime el número de temas que gustan o disgustan a Bob y Alice.
 1 <= |A|, |P| <= 10^5
 |A| = |P|
 Ambas A y P contiene solo 0 y 1.  
-0 para dislikes y 1 para likes.
+0 para dislikes y 1 para likes.   
 
-### Entrada de ejemplo || Salida de ejemplo
-        010101                       3
-        101101
+| `Ejemplo Entrada` | `Ejemplo Salida` |
+|:-----------------:|:----------------:|
+| 010101<br/>101101 |        3         |
+
+
+
 
 ### Explicación:
 A= 010101

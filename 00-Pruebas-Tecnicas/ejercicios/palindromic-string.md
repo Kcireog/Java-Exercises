@@ -15,6 +15,6 @@ Imprime la respuesta requerida en una sola línea.
 ### Nota
 La cadena S sólo puede contener letras minúsculas del alfabeto inglés.
 
-|  Ejemplo Entrada  |  Ejemplo Salida  |
+| `Ejemplo Entrada` | `Ejemplo Salida` |
 |:-----------------:|:----------------:|
 |        aba        |       YES        |
