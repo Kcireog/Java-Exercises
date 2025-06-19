@@ -6,7 +6,6 @@ Aquí podras encontrar soluciones que he realizado para recordar, practicar y me
 ## 📂 Estructura
 **ejercicios-java/**
 
-    |
     00-Pruebas-Tecnicas/---------------------->TEMÁTICA
         |
         ejercicios/----------------->Enunciados        
@@ -21,7 +20,7 @@ Aquí podras encontrar soluciones que he realizado para recordar, practicar y me
             Ejercicio1.java  
 
 
-## Ejercicios Disponibles
+## 📜 Ejercicios Disponibles
 | Temática           |              Enunciados               |           Soluciones           |
 |:-------------------|:-------------------------------------:|:------------------------------:|
 | `Pruebas Técnicas` | [Ver](00-Pruebas-Tecnicas/ejercicios) | [Ver](00-Pruebas-Tecnicas/src) |    
