@@ -28,7 +28,7 @@ Ambas A y P contiene solo 0 y 1.
 
 
 ### Explicación:
-A= 010101
-P= 101101
-A ambos les gusta el 4° y 6° tema y les dsigusta el 5°.
+A= 010101  
+P= 101101  
+A ambos les gusta el 4° y 6° tema y les dsigusta el 5°.  
 Así que la respuesta es 3 coincidencias.
