@@ -15,8 +15,8 @@ lo que no a Alice.
 Imprime el número de temas que gustan o disgustan a Bob y Alice.
 
 ### Restricciones
-1 <= |A|, |P| <= 10^5
-|A| = |P|
+1 <= |A|, |P| <= 10^5  
+|A| = |P|  
 Ambas A y P contiene solo 0 y 1.  
 0 para dislikes y 1 para likes.   
 
