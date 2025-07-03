@@ -1,4 +1,4 @@
-# Generador Succesión de Fibonacci
+# Generador Sucesión de Fibonacci
 
 Escribe un programa que genere e imprima los primeros n números de la secuendia de Fibonacci.   
 
