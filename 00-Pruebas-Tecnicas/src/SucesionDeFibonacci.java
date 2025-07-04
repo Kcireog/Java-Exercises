@@ -17,13 +17,14 @@ public class SucesionDeFibonacci {
         System.out.print(a + " "); // Imprimimos el primer número de la secuencia
 
         for (int i = 1; i < num; i++) {
-            System.out.print(b + " "); // Imprimimos el siguiente número de la secuencia
+            System.out.print(b + " ");
             int temp = b;
             b = a + b; // num actual
             a = temp; // num anterior
 
-//            a se convierte en el valor anterior de b
-//            b se convierte en el nuevo término de Fibonacci.
+            //Guardo el b actual en temp.
+            // Calculo el siguiente número de Fibonacci → a + b.
+            // Actualizo a al valor anterior de b (que se guardo en temp).
         }
 
 
