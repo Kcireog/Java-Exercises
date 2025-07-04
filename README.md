@@ -7,13 +7,14 @@ Aquí podras encontrar soluciones que he realizado para recordar, practicar y me
 **ejercicios-java/**
 
     00-Pruebas-Tecnicas/---------------------->TEMÁTICA
-        |
-        ejercicios/----------------->Enunciados        
-            charging-phone.md
-        |
-        src/------------------------>Soluciones     
-            ChargingPhone.java
-    01-POO/
+    |    |
+    |    ejercicios/----------------->Enunciados        
+    |        charging-phone.md
+    |    |
+    |    src/------------------------>Soluciones     
+    |        ChargingPhone.java
+    |
+    01-Java-Intro/
         ejercicios/                    
             ejercicio1.md
         src/                             
@@ -24,4 +25,5 @@ Aquí podras encontrar soluciones que he realizado para recordar, practicar y me
 | Temática           |              Enunciados               |           Soluciones           |
 |:-------------------|:-------------------------------------:|:------------------------------:|
 | `Pruebas Técnicas` | [Ver](00-Pruebas-Tecnicas/ejercicios) | [Ver](00-Pruebas-Tecnicas/src) |    
-| `POO`              |       [Ver](01-POO/ejercicios)        |       [Ver](01-POO/src)        | 
+| `Java Intro`       |    [Ver](01-Java-Intro/ejercicios)    |    [Ver](01-Java-Intro/src)    | 
+| `POO`              |       [Ver](02-POO/ejercicios)        |       [Ver](02-POO/src)        | 
