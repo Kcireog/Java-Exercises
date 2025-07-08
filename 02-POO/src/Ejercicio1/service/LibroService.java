@@ -13,7 +13,7 @@ public class LibroService {
     }
 
     //hacer un metodo privado solo cuando lo vayamos a usar exclusivamente dentro de la clase
-    public void crearLibro(){
+    public void crearLibro() {
 
         System.out.println("-DATOS LIBRO-");
 
@@ -31,7 +31,7 @@ public class LibroService {
         listarLibros(libro);
     }
 
-    private void listarLibros(Libro libro){
+    private void listarLibros(Libro libro) {
         System.out.println(libro);
     }
 }
