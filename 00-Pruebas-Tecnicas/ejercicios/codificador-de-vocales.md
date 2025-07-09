@@ -10,7 +10,7 @@ vocales acentuadas) se mantienen sin cambios.
 |  @  | # | $ | % | * |
 
 Realice un subprograma que reciba una secuencia de caracteres y retorne la codificación
-correspondiente. Utilice la estructura “según” para la transformación.
+correspondiente. Utilice la estructura “swich” para la transformación.
 
 ### Ejemplo
 Por ejemplo, si el usuario ingresa:   
