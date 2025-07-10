@@ -19,4 +19,4 @@ Ayer, lunes, salimos a las once y 10.
 La salida del programa debería ser:   
 @y#r, l*n#s, s@l$m%s @ l@s %nc# y 10.
 
-Investigar método concat de la clase String.
+*Investigar método concat de la clase String.*
