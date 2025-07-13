@@ -15,9 +15,6 @@ public class Ejercicio8 {
 
         } while (frase.length() > 8);
 
-
         System.out.println("CORRECTO");
-
-
     }
 }
