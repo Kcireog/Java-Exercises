@@ -31,15 +31,15 @@ public class Ejercicio14 {
         switch (moneda){
             case "libras":
                 conversion = euros * 0.86;
-                System.out.println(euros+"€ equivalen a:  "+ conversion+ "£");
+                System.out.println(euros+"€ equivalen a "+ conversion+ "£");
                 break;
             case "yenes":
                 conversion=euros * 129.852;
-                System.out.println(euros+"€ equivalen a:  "+ conversion+ "¥");
+                System.out.println(euros+"€ equivalen a "+ conversion+ "¥");
                 break;
             case "dolares":
                 conversion=euros * 1.28611;
-                System.out.println(euros+"€ equivalen a:  "+ conversion+ "$");
+                System.out.println(euros+"€ equivalen a "+ conversion+ "$");
                 break;
         }
     }
