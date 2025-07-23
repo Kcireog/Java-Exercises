@@ -1,11 +1,8 @@
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Ejercicio16 {
     public static void main(String[] args) {
-
-
 
         int [] vectorAdivinar = new int[10];
 
