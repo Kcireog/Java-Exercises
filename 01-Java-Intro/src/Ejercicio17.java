@@ -3,55 +3,45 @@ public class Ejercicio17 {
 
         int[] vector = new int[10];
         for (int i = 0; i < vector.length; i++) {
-            vector[i] = (int) (Math.random() * 10000) + 1;// 1-10000
+            vector[i] = (int) (Math.random() * 99999) + 1;// 1-99999
         }
+        int[] numDigitos = new int[6];  // Índice 0 no se utiliza, del 1 al 5 dígitos. No hay números con 0 digitos
 
-        contabilizarDigitos(vector);
+        contabilizarDigitos(vector, numDigitos);
+        mostrarVector(vector);
+        mostrarResultados(numDigitos);
     }
 
-    static void contabilizarDigitos(int[] vector) {
+    private static void contabilizarDigitos(int[] vector, int[] numDigitos) {
 
-        int contUno = 0;
-        int contDos = 0;
-        int contTres = 0;
-        int contCuatro = 0;
-        int contCinco = 0;
-        for (int i = 0; i < vector.length; i++) {
-            int digito = (int) Math.floor(Math.log10(Math.abs(vector[i])) + 1);
-            switch (digito) {
-                case 1:
-                    contUno++;
-                    break;
-                case 2:
-                    contDos++;
-                    break;
-                case 3:
-                    contTres++;
-                    break;
-                case 4:
-                    contCuatro++;
-                    break;
-                case 5:
-                    contCinco++;
-                    break;
+        for (int num : vector) {
+            int digitos = contarDigitos(num);
+            if (digitos >= 1 && digitos <= 5) {
+                numDigitos[digitos]++;
             }
         }
-        mostrarVector(vector);
-
-        System.out.println("***CONTADOR DIGITOS***");
-        System.out.println("Uno: " + contUno);
-        System.out.println("Dos: " + contDos);
-        System.out.println("Tres: " + contTres);
-        System.out.println("Cuatro: " + contCuatro);
-        System.out.println("Cinco: " + contCinco);
-
-
     }
 
-    static void mostrarVector(int[] vector) {
+    private static int contarDigitos(int numero) {
+        if (numero == 0) {
+            return 1;
+        }
+        int digitos = 0;
+        digitos = (int) Math.floor(Math.log10(Math.abs(numero)) + 1);
+        return digitos;
+    }
+
+    private static void mostrarVector(int[] vector) {
         for (int i = 0; i < vector.length; i++) {
             System.out.print("[" + vector[i] + "] ");
         }
         System.out.println();
+    }
+
+    private static void mostrarResultados(int[] numDigitos) {
+        System.out.println("\nResultados:");
+        for (int i = 1; i < numDigitos.length; i++) {
+            System.out.println("Números de " + i + " dígito(s): " + numDigitos[i]);
+        }
     }
 }
